@@ -1547,7 +1547,7 @@ FW_VERSIONS = {
       b'\xf1\x816H6G6051\x00\x00\x00\x00\x00\x00\x00\x00',
       b'\xf1\x816H6G8051\x00\x00\x00\x00\x00\x00\x00\x00',
     ]
-    (Ecu.cornerRadar, 0x7B7, None)"[
+    (Ecu.cornerRadar, 0x7B7, None): [
 		  b'\xf1\x003D',
 		]
   },
