@@ -1489,7 +1489,6 @@ FW_VERSIONS = {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00CN7 MFC  AT USA LHD 1.00 1.00 99210-AB000 200819',
       b'\xf1\x00CN7 MFC  AT USA LHD 1.00 1.03 99210-AA000 200819',
-      b'\xf1\x00CN7 MFC  AT USA LHD 1.00 1.00 99210-AB000 200819',
       b'\xf1\x00CN7 MFC  AT USA LHD 1.00 1.01 99210-AB000 210205',
       b'\xf1\x00CN7 MFC  AT USA LHD 1.00 1.06 99210-AA000 220111',
       b'\xf1\x00CN7 MFC  AT USA LHD 1.00 1.03 99210-AB000 220426',
@@ -1516,6 +1515,9 @@ FW_VERSIONS = {
       b'\xf1\x870\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf1\x81HM6M2_0a0_G80',
       b'\xf1\x870\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf1\x81HM6M2_0a0_HC0',
     ],
+    (Ecu.cornerRadar, 0x7B7, None): [
+		  b'\xf1\x003D',
+		],
   },
   CAR.ELANTRA_HEV_2021: {
     (Ecu.fwdCamera, 0x7c4, None): [
@@ -1546,10 +1548,7 @@ FW_VERSIONS = {
       b'\xf1\x816H6G5051\x00\x00\x00\x00\x00\x00\x00\x00',
       b'\xf1\x816H6G6051\x00\x00\x00\x00\x00\x00\x00\x00',
       b'\xf1\x816H6G8051\x00\x00\x00\x00\x00\x00\x00\x00',
-    ]
-    (Ecu.cornerRadar, 0x7B7, None): [
-		  b'\xf1\x003D',
-		]
+    ],
   },
   CAR.KONA_HEV: {
     (Ecu.abs, 0x7d1, None): [
